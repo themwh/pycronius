@@ -1,1 +1,6 @@
-*.pyc
+*.egg-info
+*.pot
+*.py[co]
+MANIFEST
+dist/
+build/
