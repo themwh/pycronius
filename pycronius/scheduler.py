@@ -1,8 +1,9 @@
+import re
 from collections import defaultdict
 from datetime import *
-import re
 
-from .rules import *
+
+from pycronius.rules import *
 
 
 class Scheduler(object):

@@ -1,8 +1,8 @@
-from datetime import datetime
 import unittest
+from datetime import datetime
 
-from .scheduler import Scheduler
-from .rules import *
+from pycronius.scheduler import Scheduler
+from pycronius.rules import *
 
 
 #TODO: test tz-aware datetime strings

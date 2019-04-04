@@ -1,5 +1,5 @@
 from datetime import *
-from .scheduler import Scheduler
+from pycronius.scheduler import Scheduler
 
 
 def benchmark_basic_scheduler():

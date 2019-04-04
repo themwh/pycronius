@@ -1,11 +1,13 @@
 import re
 
-from .utils import Bunch
+from pycronius.utils import Bunch
 
 #TODO: consider adding "* * last 11 4 *" style strings (last thursday of november)
 
+
 class InvalidFieldError(Exception):
     pass
+
 
 class InvalidCronStringError(Exception):
     pass
